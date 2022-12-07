@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+    background-image: url(../imagenes/fondoVerde.png);
+    color:white;
+    padding: 50px;
+    
+}
+nav ul{
+    background-color: rgb(48, 51, 51);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+nav li:hover{
+    background-color: black;
+}
+h2{
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 30px;
+    padding: 5px;
+   
+    align-items: center;
+}
+img:hover{
+    transform:translate(-50px);
+    box-shadow: 0 2px 16px rgba(0, 0,0);
+    border-radius: 30px;
+    
+}
+footer{
+    background-image: url(../imagenes/fondoVerde.png);
+    padding: 20px;
+    margin-top: auto;
+
+}
+h3,p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+  
+ 
